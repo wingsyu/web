@@ -1,0 +1,62 @@
+nohup: ignoring input
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+?: (staticfiles.W004) The directory '/static/' in the STATICFILES_DIRS setting does not exist.
+?: (staticfiles.W004) The directory '/var/www/static/' in the STATICFILES_DIRS setting does not exist.
+
+System check identified 2 issues (0 silenced).
+[12/Mar/2023 11:29:53] "GET / HTTP/1.1" 200 15
+/root/work/web/mysite/mysite/settings.py changed, reloading.
+Performing system checks...
+
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+March 12, 2023 - 11:29:39
+Django version 4.1, using settings 'mysite.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+?: (staticfiles.W004) The directory '/static/' in the STATICFILES_DIRS setting does not exist.
+?: (staticfiles.W004) The directory '/var/www/static/' in the STATICFILES_DIRS setting does not exist.
+
+System check identified 2 issues (0 silenced).
+[12/Mar/2023 12:04:44] "GET / HTTP/1.1" 200 15
+[12/Mar/2023 12:04:49] "GET /admin HTTP/1.1" 301 0
+[12/Mar/2023 12:04:49] "GET /admin/ HTTP/1.1" 302 0
+[12/Mar/2023 12:04:49] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2220
+[12/Mar/2023 12:04:49] "GET /static/admin/css/base.css HTTP/1.1" 200 20344
+[12/Mar/2023 12:04:49] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796
+[12/Mar/2023 12:04:49] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619
+[12/Mar/2023 12:04:49] "GET /static/admin/css/login.css HTTP/1.1" 200 958
+[12/Mar/2023 12:04:49] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18854
+[12/Mar/2023 12:04:49] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+[12/Mar/2023 12:04:49] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[12/Mar/2023 12:04:49] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[12/Mar/2023 12:04:49] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[12/Mar/2023 12:04:55] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[12/Mar/2023 12:04:55] "GET /admin/ HTTP/1.1" 200 3540
+[12/Mar/2023 12:04:55] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[12/Mar/2023 12:04:55] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[12/Mar/2023 12:04:55] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[12/Mar/2023 12:04:55] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[12/Mar/2023 12:05:04] "GET /admin/auth/user/add/ HTTP/1.1" 200 7463
+[12/Mar/2023 12:05:04] "GET /static/admin/css/forms.css HTTP/1.1" 200 8944
+[12/Mar/2023 12:05:04] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[12/Mar/2023 12:05:04] "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[12/Mar/2023 12:05:04] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8919
+[12/Mar/2023 12:05:04] "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+[12/Mar/2023 12:05:04] "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+[12/Mar/2023 12:05:04] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11297
+[12/Mar/2023 12:05:04] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[12/Mar/2023 12:05:04] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+[12/Mar/2023 12:05:04] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[12/Mar/2023 12:05:04] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[12/Mar/2023 12:05:04] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[12/Mar/2023 12:05:04] "GET /static/admin/js/change_form.js HTTP/1.1" 200 1043
+[12/Mar/2023 12:05:06] "GET /admin/ HTTP/1.1" 200 3540
